@@ -37,4 +37,20 @@ Each of the model files and class name files are included in their respective fo
 
 *Note: we will use OpenCV’s DNN module compiled with CUDA support. If your OpenCV is not compiled with CUDA support for your NVIDIA GPU, then you need to configure your system*
 
-## Result for YOLO
+## Result of YOLO Model
+
+![Yolo1](https://user-images.githubusercontent.com/49313619/87253277-9a890c00-c497-11ea-87d8-cf865a76d569.png)
+
+![Yolo2](https://user-images.githubusercontent.com/49313619/87253271-95c45800-c497-11ea-904a-66ec8432f195.png)
+
+## Result of SSD Model
+
+![SSD1](https://user-images.githubusercontent.com/49313619/87253274-9957df00-c497-11ea-9425-9165400c0c52.png)
+
+![SSD2](https://user-images.githubusercontent.com/49313619/87253276-99f07580-c497-11ea-9d86-d60d41d818cc.png)
+
+## Result of Mask-RCNN
+
+![mask1](https://user-images.githubusercontent.com/49313619/87253272-9826b200-c497-11ea-91c9-a7305f63c770.png)
+
+![Mask2](https://user-images.githubusercontent.com/49313619/87253273-98bf4880-c497-11ea-9ef2-f239da81473e.png)
