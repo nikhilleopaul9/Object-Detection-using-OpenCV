@@ -38,7 +38,3 @@ Each of the model files and class name files are included in their respective fo
 *Note: we will use OpenCV’s DNN module compiled with CUDA support. If your OpenCV is not compiled with CUDA support for your NVIDIA GPU, then you need to configure your system*
 
 ## Result for YOLO
-
-![Screenshot (41)](https://user-images.githubusercontent.com/49313619/87250954-f2b71280-c485-11ea-8ba0-3d2b3a9bc525.png)
-
-![Screenshot (44)](https://user-images.githubusercontent.com/49313619/87250957-f5196c80-c485-11ea-9bc3-0cee3fd82263.png)
