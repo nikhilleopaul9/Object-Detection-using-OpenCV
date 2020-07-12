@@ -27,12 +27,12 @@ Our approach efficiently detects objects in an image while simultaneously genera
 
 ## Model Training
 
-> SSD: Performs Caffe-based MobileNet SSD object detection on 20 COCO classes with CUDA.
+* SSD: Performs Caffe-based MobileNet SSD object detection on 20 COCO classes with CUDA.
 
-> YOLO: Performs YOLO V3 object detection on 80 COCO classes with CUDA.
+* YOLO: Performs YOLO V3 object detection on 80 COCO classes with CUDA.
 
-> Mask-RCNN: Performs TensorFlow-based Inception V2 segmentation on 90 COCO classes with CUDA.
+* Mask-RCNN: Performs TensorFlow-based Inception V2 segmentation on 90 COCO classes with CUDA.
 
 Each of the model files and class name files are included in their respective folders with the exception of our MobileNet SSD (the class names are hardcoded in a Python list directly in the script).
 
-* Note: we will use OpenCV’s DNN module compiled with CUDA support. If your OpenCV is not compiled with CUDA support for your NVIDIA GPU, then you need to configure your system*
+*Note: we will use OpenCV’s DNN module compiled with CUDA support. If your OpenCV is not compiled with CUDA support for your NVIDIA GPU, then you need to configure your system*
