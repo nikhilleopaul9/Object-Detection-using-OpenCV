@@ -25,3 +25,14 @@ That’s a lot of algorithms. Which one should you use? Currently, Faster-RCNN i
 
 Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, bounding-box object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners.
 
+## Model Training
+
+> SSD: Performs Caffe-based MobileNet SSD object detection on 20 COCO classes with CUDA.
+
+> YOLO: Performs YOLO V3 object detection on 80 COCO classes with CUDA.
+
+> Mask-RCNN: Performs TensorFlow-based Inception V2 segmentation on 90 COCO classes with CUDA.
+
+Each of the model files and class name files are included in their respective folders with the exception of our MobileNet SSD (the class names are hardcoded in a Python list directly in the script).
+
+* Note: we will use OpenCV’s DNN module compiled with CUDA support. If your OpenCV is not compiled with CUDA support for your NVIDIA GPU, then you need to configure your system*
